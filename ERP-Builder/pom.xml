@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>micro.service</groupId>
+    <artifactId>ERP-Builder</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <name>ERP-Builder</name>
+    <modules>
+        <module>../erp-cloud-spring-config</module>
+        <module>../erp-cloud-spring-discovery</module>
+        <module>../erp-cloud-spring-gateway</module>
+        <module>../erp-service-core-library</module>
+        <module>../erp-service-core-model</module>
+        <module>../erp-database-adapter</module>
+        <module>../erp-service-web-security</module>
+        <module>../micro-service-authenticate</module>
+        <module>../micro-service-master</module>
+        <module>../micro-service-payment</module>
+        <module>../micro-service-etrans-company</module>
+        <module>../micro-service-etrans-customer</module>
+        <module>../micro-service-etrans-driver</module>
+    </modules>
+</project>
